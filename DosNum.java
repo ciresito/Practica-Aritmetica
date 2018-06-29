@@ -5,5 +5,5 @@ public class DosNum {
   void setB(double b) {  this.b = b; }
   double getA() {  return a; }
   double getB() {  return b; }
-  String toString() {  return "a ="+a+" b="+b; }
+  public String toString() {  return "a ="+a+" b="+b; }
 }  
