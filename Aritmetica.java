@@ -7,9 +7,9 @@ public class Aritmetica {
   void datos() {
   //Metodo para solicitar dos datos
         System.out.println("Escribir el primer dato:");
-    	prueba.setA=tecla.nextDouble();
+    	prueba.setA(tecla.nextDouble());
         System.out.println("Escribir el segundo dato:");
-	    prueba.setB=tecla.nextDouble();
+	    prueba.setB(tecla.nextDouble());
   }
   void calculos(){}
   void resultados(){}
