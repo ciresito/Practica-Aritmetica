@@ -2,9 +2,16 @@ import java.util.Scanner;
 
 public class Aritmetica {
   Scanner tecla = new Scanner(System.in);
-
+  private double s, r, m, d;
   DosNum prueba=new DosNum();
- 
+
+  void calculos(){
+  s=prueba.getA()+prueba.getB();
+  r=prueba.getA()-prueba.getB();
+  m=prueba.getA()*prueba.getB();
+  d=prueba.getA()/prueba.getB();
+  }
+  
   void datos() {
   //Metodo para solicitar dos datos
         System.out.println("Escribir el primer dato:");
@@ -18,8 +25,6 @@ public class Aritmetica {
 	System.out.println("Crear una aplicación que acepte dos números del usuario efectúe las cuatro operaciones aritmeticas básicas y muestre los resultados");
 	}
   
-  void calculos(){}
-
   void resultados(){
       System.out.println("El resultado de la Suma es: ", s);
       System.out.println("El resultado de la Resta es: ", r);
