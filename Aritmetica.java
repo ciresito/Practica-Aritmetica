@@ -3,10 +3,21 @@ import java.util.Scanner;
 public class Aritmetica {
   Scanner tecla = new Scanner(System.in);
 
+  DosNum prueba=new DosNum();
+ 
+  void datos() {
+  //Metodo para solicitar dos datos
+        System.out.println("Escribir el primer dato:");
+    	prueba.setA(tecla.nextDouble());
+        System.out.println("Escribir el segundo dato:");
+	    prueba.setB(tecla.nextDouble());
+  }
+
+
   void inicio(){
-	System.out.println("Crear una aplicación que acepte dos números del usuario efectúe las cuatro operaciones aritmeticas básicas y muestre los resultados");
+	System.out.println("Crear una aplicaciÃ³n que acepte dos nÃºmeros del usuario efectÃºe las cuatro operaciones aritmeticas bÃ¡sicas y muestre los resultados");
 	}
-  void datos() {}
+  
   void calculos(){}
 
   void resultados(){
